@@ -63,3 +63,14 @@ body{
 .user-actions__item-search{
     margin-left: 80px;
 }
+
+.top{
+    background-image: url(../images/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.top__inner{
+    min-height: 500px;    
+}
