@@ -72,5 +72,36 @@ body{
 }
 
 .top__inner{
-    min-height: 500px;    
+    min-height: 500px;
+    color: #fff; 
+    font-family: 'Cormorant', serif; 
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+}
+
+.top__title{
+    font-size: 60px;
+    margin-bottom: 20px;
+    max-width: 780px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.top__text{
+    font-size: 24px;
+    margin-bottom: 48px;
+    max-width: 560px;
+    line-height: normal;
+}
+
+.blockquote{
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: normal;
+    max-width: 705px;
+    margin: 150px auto;    
 }
