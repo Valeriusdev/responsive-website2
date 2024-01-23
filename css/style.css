@@ -160,6 +160,45 @@ body{
     }
     .logo{
         margin-left: auto;
-        margin-right: auto;
-    }    
+        margin-right: 154px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__inner{
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .blockquote__text{
+        max-width: 640px;    
+    }
+}
+
+@media (max-width: 680px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header__inner{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .top__title{
+        font-size: 40px;
+    }
+    .blockquote__text{
+        font-size: 16px;
+        max-width: 376px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo{
+        margin-right: 80px;
+    }
+    .logo img{
+        width: 40px;
+    }
 }
